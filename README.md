@@ -53,25 +53,25 @@ React Router được dùng với `BrowserRouter`, `Routes`, `Route`, `Link`, `N
 1. Dự án dùng ReactJS với Vite.
 2. `index.html` cung cấp HTML gốc; JSX trong `App.jsx` tạo trang chủ theo đề tài booking khách sạn.
 3. `src/styles.css` định dạng giao diện và responsive.
-4. Sau khi tạo repository GitHub cá nhân/nhóm, đẩy mã nguồn theo hướng dẫn bên dưới.
+4. Source code đã được đẩy lên repository công khai [c0ngdUng/nestay-hotel-booking](https://github.com/c0ngdUng/nestay-hotel-booking).
 5. Có thêm các trang khám phá, chi tiết, giới thiệu, liên hệ, yêu cầu đặt phòng và 404; `HotelCard`, `SearchForm`, `Header`, `Footer` là component dùng lại.
 6. Đã tích hợp React Router.
 7. Menu chuyển trang và đường dẫn trực tiếp hoạt động với Vite.
 
-## Đẩy lên GitHub
+## Repository GitHub
 
-Tạo repository **trống** trên GitHub, ví dụ `nestay-hotel-booking` (không chọn tạo README hoặc `.gitignore` trên GitHub nếu đã có sẵn trong project). Từ thư mục project, chạy:
+Link nộp bài: **https://github.com/c0ngdUng/nestay-hotel-booking**.
+
+Để tải source và làm việc tiếp:
 
 ```bash
-git init
-git add .
-git commit -m "Build NÉSTAY hotel booking React project"
-git branch -M main
-git remote add origin https://github.com/TEN-TAI-KHOAN/nestay-hotel-booking.git
-git push -u origin main
+git clone https://github.com/c0ngdUng/nestay-hotel-booking.git
+cd nestay-hotel-booking
+npm install
+npm run dev
 ```
 
-Thay `TEN-TAI-KHOAN` bằng tên GitHub thực tế và đăng nhập khi Git yêu cầu. Link nộp bài là `https://github.com/TEN-TAI-KHOAN/nestay-hotel-booking`. **Chỉ nộp link sau khi truy cập được repository và thấy source code.**
+Khi nhóm chỉnh sửa project, dùng `git add .`, `git commit -m "Mô tả thay đổi"` và `git push` từ tài khoản có quyền ghi vào repository.
 
 ## Ghi chú
 
